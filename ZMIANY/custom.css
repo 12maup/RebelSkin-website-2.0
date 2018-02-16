@@ -1,0 +1,61 @@
+.woocommerce-account h2, .woocommerce-account div#my-stored-cards{
+    display: none;
+}
+
+.edgtf-pla-image
+{
+padding:5px;
+}
+/* ----------------------------KONTAKT START------------------------------------- */
+.custom-contact-firsthalf
+{
+	float: left;
+    width: 47%;
+}
+.custom-contact-secondhalf
+{
+	float: right;
+    width: 52%;
+}
+
+.custom-contact-down
+{
+  margin-top: -25px;
+}
+
+@media (max-width: 650px)
+{
+	.custom-contact-firsthalf,.custom-contact-secondhalf
+	{
+		width:100% !important;
+	}
+  .custom-contact-secondhalf
+  {
+    margin-top: -25px;
+  }
+}
+.woocommerce-page .edgtf-content input[type="text"]::-moz-placeholder, .woocommerce-page .edgtf-content input[type="email"]::-moz-placeholder, .woocommerce-page .edgtf-content input[type="tel"]::-moz-placeholder, .woocommerce-page .edgtf-content input[type="password"]::-moz-placeholder, .woocommerce-page .edgtf-content textarea::-moz-placeholder, div.woocommerce input[type="text"]::-moz-placeholder, div.woocommerce input[type="email"]::-moz-placeholder, div.woocommerce input[type="tel"]::-moz-placeholder, div.woocommerce input[type="password"]::-moz-placeholder, div.woocommerce textarea::-moz-placeholder
+{
+  color: black !important;
+  font-weight: bold;
+}
+.woocommerce-page .edgtf-content input[type="text"]:focus,
+ .woocommerce-page .edgtf-content input[type="email"]:focus,
+ .woocommerce-page .edgtf-content input[type="tel"]:focus,
+ .woocommerce-page .edgtf-content input[type="password"]:focus,
+ .woocommerce-page .edgtf-content textarea:focus,
+  div.woocommerce input[type="text"]:focus,
+  div.woocommerce input[type="email"]:focus,
+   div.woocommerce input[type="tel"]:focus,
+   div.woocommerce input[type="password"]:focus, div.woocommerce textarea:focus
+{
+   border-color: #d4d4d4 !important;
+  }
+
+.edgtf-content input[type="text"]:focus::-moz-placeholder,
+.edgtf-content textarea:focus::-moz-placeholder,
+.edgtf-content input[type="email"]:focus::-moz-placeholder
+{
+
+  opacity: 0.2;
+}
